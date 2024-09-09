@@ -75,4 +75,3 @@ app.UseExceptionHandler("/Home/Error"); // Optional: Customize based on your app
 app.MapControllers();
 
 app.Run();
-//fuck this job

@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace InternExample.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UserController(UserRepository userRepository) : ControllerBase

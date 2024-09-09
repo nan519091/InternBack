@@ -5,7 +5,7 @@
 namespace InternExample.Migrations
 {
     /// <inheritdoc />
-    public partial class Update1 : Migration
+    public partial class UpdateHash : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
